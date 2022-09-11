@@ -1,0 +1,36 @@
+.footer{
+    background-image: url('https://sawback.com/wp-content/themes/thegem/images/footer-bg.png');
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    padding-bottom: 10px;
+    
+}
+
+
+
+.box__footer{
+    
+    display:grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto, minmax(14rem, 16rem));
+    align-items: center center;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.box__footer h2{
+    margin-top: 2rem;
+    color:black
+}
+.box__footer a{
+    text-decoration: none;
+    color: antiquewhite;
+    text-shadow: 0.4px black;
+    
+}
+
+#Redes_box a{
+    padding: 0px 10px;
+}

@@ -1,0 +1,46 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#navbarimg{
+    width: 100%;
+    filter: brightness(1);
+    position: relative;
+    filter: drop-shadow(-40px 0px 30px rgba(0, 0, 0, 0.5));
+    }
+
+
+.content_jabones{
+    width: 40%;
+    padding: 10px;
+    margin:auto;
+    padding: 3rem;
+    display: block;
+    gap: 2rem;
+    justify-content: center;
+    
+
+    
+}
+
+#jabonesimg{
+    width: 60%;
+    padding: 2px;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    filter: brightness(1);
+    position: relative;
+    filter: drop-shadow(-40px 0px 30px rgba(0, 0, 0, 0.5));
+    
+    
+}
+
+.especialidad1{
+    box-shadow: 0 0 10px 5px rgba(30, 30, 30, 0.529);
+    border-radius: 0.2rem;
+    transition: all;
+    background-color: rgba(240, 248, 255, 0.788);
+    text-align: center;
+    padding-top: 5px;
+    margin: 20px;
+}
