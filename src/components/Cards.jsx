@@ -22,7 +22,7 @@ function Card(props){
             <h2 className="card__title">{props.title}</h2>
             <p className="card__description">{props.description}</p>
             <h3 className="card__price">{props.price}</h3>
-            <a href="">
+            <a href="#">
                 <button className="card__btn2">Leer mas</button>
             </a>
             <a href={props.pago}>

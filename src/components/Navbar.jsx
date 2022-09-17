@@ -1,8 +1,9 @@
 
 function Navbar(){
     return(
-        <div>
-            <img id="navbarimg" src="https://fondosmil.com/fondo/17010.jpg" alt="" />
+        <div className="hero">
+            <img id="navbarimg" src="./src/img/Logo.png" alt="" />
+            <img id="onlylogo" src="./src/img/Onlylogo.png" alt="" />
         </div>
 
     )

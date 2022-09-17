@@ -10,14 +10,14 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(47, 47, 47);
-    background-image: url("https://i.pinimg.com/originals/75/38/ca/7538cac519b0c9aee062459f7cdbbf70.jpg");
+    background: linear-gradient(to bottom, rgba(235, 170, 6, 0.76), rgba(160, 11, 128, 0.267));
     
 }
 
 .wrapper{
     margin:2rem;
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
     grid-template-columns: 1fr;
     justify-content: center;
 }
@@ -25,6 +25,7 @@ body{
     box-shadow: 0 0 10px 5px rgba(30, 30, 30, 0.529);
     border-radius: 0.2rem;
     min-width: 28rem;
+    margin-right: 1em;
     display: flex;
     transition: all;
     background-color: aliceblue;
@@ -51,6 +52,7 @@ body{
     margin:1rem;
     flex-grow: 1;
     text-decoration: none;
+    
 
     
 }
@@ -64,6 +66,8 @@ body{
 .card__description{
     line-height: 1.2rem;
     margin-top: 0.4rem;
+    text-decoration: none;
+    
 
 }
 
@@ -85,7 +89,7 @@ body{
     font-family: inherit;
     font-size: 1rem;
     font-weight: bold;
-    color: inherit;
+    color: rgb(47, 47, 47);
     width: 100%;
     padding-top: 1rem;
     margin-top: 1rem;
@@ -94,7 +98,7 @@ body{
 }
 
 .card__btn:hover{
-    color: rgb(23, 53, 246);
+    color: rgb(3, 36, 249);
 }
 
 .card__btn2{

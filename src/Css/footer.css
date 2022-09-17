@@ -1,18 +1,26 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
 .footer{
-    background-image: url('https://sawback.com/wp-content/themes/thegem/images/footer-bg.png');
+    *background: linear-gradient(to bottom, rgba(5, 5, 5, 0.596), rgba(6, 1, 5, 0.662));
+    background-color: #23272a;
     background-position: center;
     background-size: cover;
     width: auto;
     padding-bottom: 10px;
+    border-radius: 1%;
     
 }
 
 
 
 .box__footer{
-    
     display:grid;
-    gap: 1rem;
+    gap: 2rem;
+    margin-bottom: 2%;
     grid-template-columns: repeat(auto, minmax(14rem, 16rem));
     align-items: center center;
     text-align: center;
@@ -22,15 +30,42 @@
 
 .box__footer h2{
     margin-top: 2rem;
-    color:black
+    color: rgba(235, 170, 6);
+
+    
 }
+
+
 .box__footer a{
     text-decoration: none;
-    color: antiquewhite;
-    text-shadow: 0.4px black;
+    -webkit-text-stroke: 0.1px black;
+    color: white; 
     
+}
+
+.box__footer a:hover{
+    -webkit-text-stroke: 0.1px black;
+    color: rgb(222, 181, 0);
 }
 
 #Redes_box a{
     padding: 0px 10px;
+    -webkit-text-stroke: 0.1px black;
+    color: white; 
+    
+}
+
+#Redes_box #Face:hover{
+    -webkit-text-stroke: 0.1px black;
+    color: rgb(0, 148, 222);
+}
+
+#Redes_box #Wha:hover{
+    -webkit-text-stroke: 0.1px black;
+    color: rgb(26, 222, 0);
+}
+
+#Redes_box #Ins:hover{
+    -webkit-text-stroke: 0.1px black;
+    color: rgb(222, 0, 159);
 }
