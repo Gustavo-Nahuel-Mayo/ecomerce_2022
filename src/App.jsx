@@ -10,6 +10,9 @@ import './Css/cards.css';
 import './Css/infojabones.css';
 import './Css/inicio.css';
 import './Css/separation.css';
+import './img/instrujabon.png';
+import './img/Logo.png';
+import './img/Onlylogo.png';
 
 
 
