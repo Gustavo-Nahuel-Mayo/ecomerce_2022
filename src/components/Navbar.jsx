@@ -1,7 +1,6 @@
 import Banner from '../img/Logo.png';
 import Logo from '../img/Onlylogo.png';
 
-
 function Navbar(){
     return(
         <div className="hero">
@@ -11,5 +10,6 @@ function Navbar(){
 
     )
 }
+
 
 export default Navbar;

@@ -15,7 +15,7 @@ body{
 }
 
 .wrapper{
-    margin:2rem;
+    margin-top:7rem;
     display: grid;
     gap: 1rem;
     grid-template-columns: 1fr;
