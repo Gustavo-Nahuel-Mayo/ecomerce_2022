@@ -27,6 +27,7 @@ function App() {
               title="Humectante Naturaleza"
               description="Pieles secas"
               price="600.00"
+              info="#instru1" 
               pago="https://www.google.com.ar/"/>
     
           
@@ -34,12 +35,14 @@ function App() {
               img="https://content21.sabervivirtv.com/medio/2022/03/08/avena-guia-alimentos_c8b225af_1280x720.jpg"
               title="Exfoliante de Avena"
               description="Pieles grasas"
+              info="#instru2"
               price="45.00"/>
 
           <Card
               img="https://www.caracteristicas.co/wp-content/uploads/2017/05/azufre-8-e1569860188258.jpg"
               title="Jabon de Azufre"
               description="Psoriasis"
+              info="#instru3"
               price="45.00"/>
       </div>
         <Separation/>
@@ -51,12 +54,31 @@ function App() {
       <Footer/>
     </div>
       
-
+  
   
 
       
   )
   
+
+
+
+
+
 }
+
+window.onscroll = function() {
+  var posicion = window.pageYOffset || document.documentElement.scrollTop;
+
+  var elemento1 = document.getElementById("navbarimg");
+  
+  var elemento3 = document.getElementById("cardid");
+  
+  elemento1.style.bottom = posicion * 0.3 + "px";
+  
+  elemento3.style.bottom = posicion * 0.3 + "px";
+
+}
+
 
 export default App
