@@ -1,5 +1,5 @@
 import Banner from '../img/Logo.png';
-import Logo from '../img/onlylogo.png';
+import Logo from '../img/Onlylogo.png';
 
 
 function Navbar(){
