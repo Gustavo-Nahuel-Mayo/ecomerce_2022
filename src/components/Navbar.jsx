@@ -1,9 +1,12 @@
+import Banner from "../img/Logo.png";
+import Logo from "../img/onlylogo.png";
+
 
 function Navbar(){
     return(
         <div className="hero">
-            <img id="navbarimg" src="./src/img/Logo.png" alt="" />
-            <img id="onlylogo" src="./src/img/Onlylogo.png" alt="" />
+            <img id="navbarimg" src={Banner} alt="" />
+            <img id="onlylogo" src={Logo} alt="" />
         </div>
 
     )
