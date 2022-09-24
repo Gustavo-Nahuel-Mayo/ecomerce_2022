@@ -29,7 +29,7 @@ function App() {
               img={Miel}
               title="Avena, Miel y Karité"
               description="Humectante"
-              price="600.00"
+              price="600"
               info="#instru1" 
               pago="https://www.google.com.ar/"/>
     
@@ -39,14 +39,22 @@ function App() {
               title="Carbón, Arcilla y Karité"
               description="Exfoliante"
               info="#instru2"
-              price="45.00"/>
+              price="600"/>
 
           <Card
               img={Cacao}
               title="Caléndula, Miel y Cacao"
               description="Humectante y cicatrizante"
               info="#instru3"
-              price="45.00"/>
+              price="600"/>
+
+          <Card
+              img={Cacao}
+              title="Caléndula, Miel y Cacao"
+              description="Humectante y cicatrizante"
+              info="#instru3"
+              price="600"/>
+      
       </div>
         <Separation/>
       <div>

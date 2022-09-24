@@ -52,3 +52,7 @@ html{
     scroll-behavior: smooth;
 }
 
+.Stephy{
+    color: red;
+    z-index: 2;
+}

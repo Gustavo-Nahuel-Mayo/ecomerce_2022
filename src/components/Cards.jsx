@@ -25,9 +25,12 @@ function Card(props){
             <a href={props.info}>
                 <button className="card__btn2">Leer mas</button>
             </a>
+            {/*
             <a href={props.pago}>
                 <button className="card__btn" >Add to cart</button>
             </a>
+ */}
+
 
         </div>
     </div>

@@ -1,71 +1,94 @@
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 
 
 .footer{
-    *background: linear-gradient(to bottom, rgba(5, 5, 5, 0.596), rgba(6, 1, 5, 0.662));
-    background-color: #23272a;
+/*    *background: linear-gradient(to bottom, rgba(5, 5, 5, 0.596), rgba(6, 1, 5, 0.662));
+    background-color: #1a2c3a;
     background-position: center;
     background-size: cover;
     width: auto;
-    padding-bottom: 10px;
-    border-radius: 1%;
-    
-}
+    padding-bottom: 5px;
+    height: 100vh;*/
 
-
-
-.box__footer{
-    display:grid;
-    gap: 2rem;
-    margin-bottom: 2%;
-    grid-template-columns: repeat(auto, minmax(14rem, 16rem));
-    align-items: center center;
-    text-align: center;
+    background: rgb(0, 0, 0);
+    display: flex;  
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
     justify-content: center;
+    margin-top: 0;
+    padding: 0;
     
 }
 
-.box__footer h2{
-    margin-top: 2rem;
-    color: rgba(235, 170, 6);
-
-    
-}
-
-
-.box__footer a{
+.box__footer .border, .wave, a{
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
     text-decoration: none;
-    -webkit-text-stroke: 0.1px black;
-    color: white; 
+    cursor: pointer;
+
     
 }
 
-.box__footer a:hover{
-    -webkit-text-stroke: 0.1px black;
-    color: rgb(222, 181, 0);
+.border{
+    position: absolute;
+    color: black;  
+    text-shadow:
+      -0.5px -0.5px 0 rgba(255, 255, 255, 0.582), 
+      0.5px -0.5px 0 rgba(255, 255, 255, 0.582),
+      -0.5px 0.5px 0 rgba(255, 255, 255, 0.582),
+      0.5px 0.5px 0 rgba(255, 255, 255, 0.582);
 }
 
-#Redes_box a{
-    padding: 0px 10px;
-    -webkit-text-stroke: 0.1px black;
-    color: white; 
+.wave {
+    color: rgb(255, 225, 0);
+    animation: wave 3s ease-in-out infinite;
+  }
+  
+  @keyframes wave {
+    0%, 100% {
+      clip-path: polygon(
+        0% 47%,
+        10% 48%,
+        33% 54%,
+        54% 60%,
+        70% 61%,
+        84% 59%,
+        100% 52%,
+        100% 100%,
+        0% 100%
+      );
+    }
+  
+    50% {
+      clip-path: polygon(0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+      );
+    }
+  }
+
+  .border:hover {
+    color: rgb(255, 225, 0);
+    transition:all 1s ease-in-out;
+    -moz-transition: 1s linear;
+    -webkit-animation: 1s ease-out;
     
-}
+  }
 
-#Redes_box #Face:hover{
-    -webkit-text-stroke: 0.1px black;
-    color: rgb(0, 148, 222);
-}
 
-#Redes_box #Wha:hover{
-    -webkit-text-stroke: 0.1px black;
-    color: rgb(26, 222, 0);
-}
-
-#Redes_box #Ins:hover{
-    -webkit-text-stroke: 0.1px black;
-    color: rgb(222, 0, 159);
-}
+  .border:active {
+    color: rgb(255, 225, 0);
+    transition:all 0s ease-in-out !important;
+  }
