@@ -43,10 +43,11 @@ html{
       0.5px -0.5px 0 rgba(255, 255, 255, 0.582),
       -0.5px 0.5px 0 rgba(255, 255, 255, 0.582),
       0.5px 0.5px 0 rgba(255, 255, 255, 0.582);
+      transition: all 1s;
 }
 
 .wave {
-    color: rgb(255, 225, 0);
+    color: rgb(16, 255, 52);
     animation: wave 3s ease-in-out infinite;
   }
   
@@ -80,8 +81,8 @@ html{
   }
 
   .border:hover {
-    color: rgb(255, 225, 0);
-    transition:all 1s ease-in-out;
+    color: rgb(16, 255, 52);
+    *transition:all 1s ease-in-out;
     -moz-transition: 1s linear;
     -webkit-animation: 1s ease-out;
     
@@ -89,6 +90,6 @@ html{
 
 
   .border:active {
-    color: rgb(255, 225, 0);
-    transition:all 0s ease-in-out !important;
+    color: rgb(16, 255, 52);
+    *transition:all 0s ease-in-out !important;
   }

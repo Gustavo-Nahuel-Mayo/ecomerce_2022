@@ -10,20 +10,33 @@ import './Css/cards.css';
 import './Css/infojabones.css';
 import './Css/inicio.css';
 import './Css/separation.css';
+import "./Css/navbar.css";
 import './img/instrujabon.png';
 import './img/Logo.png';
 import './img/Onlylogo.png';
+import './Css/divisores.css';
 import Miel from './img/Miel.png';
 import Carbon from './img/Carbon.png';
 import Cacao from './img/Cacao.png';
+import Cajon from './img/Cajon.png';
+import Cajon2 from './img/Cajon2.png';
+import Infocards from "./components/Infocards";
+import Barra from "./components/Barra";
+import BurguerButton from "./components/BurguerButton";
+import Division from "./components/Division";
 
 
 
 function App() {
   return (
     <div>
-      <Navbar/>
       
+      
+      <Navbar/>
+      <Barra>
+        <BurguerButton/>
+      </Barra>
+    <Division/>
       <div className="wrapper">
           <Card
               img={Miel}
@@ -49,18 +62,21 @@ function App() {
               price="600"/>
 
           <Card
-              img={Cacao}
-              title="Caléndula, Miel y Cacao"
-              description="Humectante y cicatrizante"
-              info="#instru3"
-              price="600"/>
+              img={Cajon}
+              title="Combo Facial"
+              description="Vincha, Esponjas, Jabones artesanales"
+              info="#instru4"
+              price="3.500"/>
       
+          <Card
+              img={Cajon2}
+              title="Combo Ducha"
+              description="Esponjas, Jabones y Piedra pomes"
+              info="#instru5"
+              price="3.500"/>
       </div>
         <Separation/>
-      <div>
-        <Jabones/>
 
-      </div>
 
       <Footer/>
     </div>

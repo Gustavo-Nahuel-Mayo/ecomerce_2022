@@ -30,6 +30,9 @@ body{
     display: flex;
     transition: all;
     background-color: aliceblue;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    transition: transform 500ms ease;
     
 
 }
@@ -77,6 +80,7 @@ body{
     text-decoration: none;
     *padding-right: 1rem;
     padding-bottom: 0.7rem;
+   
     
 
 }
@@ -140,11 +144,21 @@ body{
     *text-align: center;
     *justify-self: center;
     *padding-right: 1rem;
+    line-height: 1.2em;
+    color: #0000;
+    text-shadow: 
+      0 0 #000, 
+      0 1.2em #1095c1;
+    overflow: hidden;
+    transition: .3s;
     
 }
 
 .card__btn2:hover{
-    color: rgb(79, 183, 247);
+    text-shadow: 
+    0 -1.2em #000, 
+    0 0 #1095c1;
+    
 }
 
 

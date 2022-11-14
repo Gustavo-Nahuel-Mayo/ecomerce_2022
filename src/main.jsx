@@ -10,6 +10,7 @@ import './Css/inicio.css';
 import './img/instrujabon.png';
 import './img/Logo.png';
 import './img/Onlylogo.png';
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
       <App />

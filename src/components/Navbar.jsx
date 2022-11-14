@@ -1,4 +1,4 @@
-import Banner from '../img/Logo.png';
+import Banner from '../img/CafeteriaGrande.png';
 import Logo from '../img/Onlylogo.png';
 
 function Navbar(){
